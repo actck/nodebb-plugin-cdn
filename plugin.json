@@ -1,0 +1,19 @@
+{
+  "id": "nodebb-plugin-cdn",
+  "name": "CDN Plugin",
+  "description": "A Plugin that change the upload file's url to your cdn url",
+  "url": "https://github.com/actck/nodebb-plugin-cdn",
+  "library": "./library.js",
+  "staticDirs": {
+    "js": "public/js"
+  },
+  "scripts": [
+    "public/js/admin.js"
+  ],
+  "hooks": [
+    { "hook": "static:app.load", "method": "onLoad" }
+  ],
+  "compatibility": "0.7.0",
+  "templates": "./public/templates",
+  "repository": "https://github.com/actck/nodebb-plugin-cdn"
+}
