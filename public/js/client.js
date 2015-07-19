@@ -1,17 +1,17 @@
 /**
  * Created by GROOT on 7/7 0007.
  */
-define('admin/plugins/aliyunoss', ['settings'], function(Settings) {
-    var NALY = {};
-    NALY.init = function() {
-        Settings.load('alyoss', $('.aly-settings'), function(err, settings) {
+define('admin/plugins/cdn', ['settings'], function(Settings) {
+    var CDN = {};
+	CDN.init = function() {
+        Settings.load('cdn', $('.cdn-settings'), function(err, settings) {
             for(var setting in settings) {
-                $('#' + setting).val(settings[setting]);
+				$('#' + setting).val(settings[setting]);
             }
         });
 
         $('#save').on('click', function(event) {
-            Settings.save('alyoss', $('.aly-settings'), function() {
+            Settings.save('cdn', $('.cdn-settings'), function() {
                 app.alert({
                     type: 'success',
                     title: 'Reload Required',
@@ -24,5 +24,5 @@ define('admin/plugins/aliyunoss', ['settings'], function(Settings) {
         });
     };
 
-    return NALY;
+    return CDN;
 });
