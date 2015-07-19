@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-cdn",
   "version": "1.0.0",
-  "description": "A plugin for nodebb to do cdn",
+  "description": "A plugin for nodebb to do cdn. It is only for test, do not install !",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
