@@ -1,4 +1,4 @@
-# NodeBB Plugin Aliyun OSS
+# NodeBB Plugin CDN
 
 A plugin that change the upload file url to your cdn url.
 
