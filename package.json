@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-cdn",
-  "version": "1.0.3",
-  "description": "A plugin for nodebb to do cdn.",
+  "version": "1.0.0",
+  "description": "A plugin for nodebb to do cdn. It is only for test, do not install !",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,9 +19,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/actck/nodebb-plugin-cdn/issues"
-  },
-  "nbbpm": {
-    "compatibility": "^0.7.0"
   },
   "homepage": "https://github.com/actck/nodebb-plugin-cdn#readme"
 }

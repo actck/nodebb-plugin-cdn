@@ -8,12 +8,11 @@
     "js": "public/js"
   },
   "scripts": [
-    "public/js/client.js"
+    "public/js/admin.js"
   ],
   "hooks": [
     { "hook": "static:app.load", "method": "onLoad" },
-    { "hook": "filter:admin.header.build", "method": "admin.menu" },
-    { "hook": "filter:parse.post", "method": "parse", "priority": 6}
+    { "hook": "filter:admin.header.build", "method": "admin.menu" }
   ],
   "compatibility": "0.7.0",
   "templates": "./public/templates",
