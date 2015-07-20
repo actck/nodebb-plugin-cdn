@@ -22,6 +22,6 @@
   },
   "nbbpm": {
     "compatibility": "^0.7.0"
-  }
+  },
   "homepage": "https://github.com/actck/nodebb-plugin-cdn#readme"
 }
