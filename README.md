@@ -1,12 +1,16 @@
-# NodeBB Plugin Aliyun OSS
+# NodeBB Plugin CDN
 
-A plugin that uploads images to aliyun oss.
+A plugin for nodebb to do cdn. It will change any static file's url of it could change to you cdn's url.
+
+v1.0.3(2015/07/20):
+    1. Support the image and file in topic page.
+
 
 ## Installation
 
-    npm install nodebb-plugin-aliyun-oss
+    npm install nodebb-plugin-cdn
 
 
-After installation put your accessKeyId and sceretAccessKey in the control panel.
+After installation put your CDN's URL and Enable it in the control panel and then restart your forum.
 
 
