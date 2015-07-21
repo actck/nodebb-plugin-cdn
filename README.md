@@ -10,7 +10,7 @@ v1.0.3(2015/07/20):<br/>
 
     npm install nodebb-plugin-cdn
 
-After installation put your CDN's URL and Enable it in the control panel and then restart your forum.
+After installation please put your CDN's URL and Enable it in the control panel and then restart your forum.
 
 Has problem ? You can contact by following ways.<br/>
 1. Email: actck@hotmail.com<br/>
