@@ -13,9 +13,13 @@
   "hooks": [
     { "hook": "static:app.load", "method": "onLoad" },
     { "hook": "filter:admin.header.build", "method": "admin.menu" },
-    { "hook": "filter:parse.post", "method": "parse", "priority": 6}
+    { "hook": "filter:parse.post", "method": "parsePostContent", "priority": 6},
+    { "hook": "filter:posts.modifyUserInfo", "method": "parsePoster", "priority": 6},
+    { "hook": "filter:user.account", "method": "parseProfilePage", "priority": 6},
+    { "hook": "filter:users.get", "method": "parseUser", "priority": 6},
+    { "hook": "filter:posts.modifyUserInfo", "method": "parseTest", "priority": 6}
   ],
-  "compatibility": "0.7.0",
+  "compatibility": "^0.7.0",
   "templates": "./public/templates",
   "repository": "https://github.com/actck/nodebb-plugin-cdn"
 }

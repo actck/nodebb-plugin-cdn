@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-cdn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A plugin for nodebb to do cdn.",
   "main": "library.js",
   "scripts": {

@@ -2,6 +2,10 @@
 
 A plugin for nodebb to do cdn. It will change any static file's url of it could change to you cdn's url.
 
+v1.0.4(2015/07/21):<br/>
+1. Support the user head image in the topic page.<br/>
+2. Support all in the personal's profile page.<br/>
+
 v1.0.3(2015/07/20):<br/>
 1. Support the image and file in topic page.
 
