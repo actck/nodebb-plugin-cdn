@@ -69,7 +69,7 @@
 
 		//console.log("poster info-->" + JSON.stringify(data));
 
-		var url = CDN.config.url + '/upload/profile/$1';
+		var url = CDN.config.url + '/uploads/profile/$1';
 		if(data.picture && data.picture.match(rep_pf_pic_url)) {
 			data.picture = data.picture.replace(rep_pf_pic_url, url);
 		}
@@ -85,7 +85,7 @@
 
 		//console.log("profile info-->" + JSON.stringify(data.userData));
 
-		var url = CDN.config.url + '/upload/profile/$1';
+		var url = CDN.config.url + '/uploads/profile/$1';
 
 		if(data.userData.picture && data.userData.picture.match(rep_pf_pic_url)) {
 			data.userData.picture = data.userData.picture.replace(rep_pf_pic_url, url);
@@ -111,9 +111,9 @@
 			return callback(null, data);
 		}
 
-		console.log("parseUser info-->" + JSON.stringify(data));
+		//console.log("parseUser info-->" + JSON.stringify(data));
 
-		var url = CDN.config.url + '/upload/profile/$1';
+		var url = CDN.config.url + '/uploads/profile/$1';
 		for(var uKey in data) {
 			var user = data[uKey];
 			if(user && user.picture && user.picture.match(rep_pf_pic_url)) {
