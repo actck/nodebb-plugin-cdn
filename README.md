@@ -3,7 +3,7 @@
 A plugin for nodebb to do cdn. It will change any static file's url of it could change to you cdn's url.
 
 v1.0.3(2015/07/20):
-    1. Support the image and file in topic page.
+<br/>1. Support the image and file in topic page.
 
 
 ## Installation
