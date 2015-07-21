@@ -13,5 +13,5 @@ v1.0.3(2015/07/20):<br/>
 After installation put your CDN's URL and Enable it in the control panel and then restart your forum.
 
 Has problem ? You can contact by following ways.<br/>
-1. email:       actck@hotmail.com<br/>
-2. community:   https://www.inaruto.com/category/6/nodebb-support
+1. email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actck@hotmail.com<br/>
+2. community:&nbsp;https://www.inaruto.com/category/6/nodebb-support
